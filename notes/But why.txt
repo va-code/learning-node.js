@@ -1,0 +1,34 @@
+Why do I want to get a better understanding of node.js?
+	-Better understanding of web aplications
+	-Join front end, and backend into one language to control websites
+	-Easier pathway to WEBASSEMBLY, which I want to understand for lower level operations
+
+What can node do?
+	threading/multicore?
+		runs multithread on the backeend..
+		how do you get to those juuicy theads?
+			"cluster" module
+
+		multithread workers:
+			will each accept a process and complete the process
+
+		If you are using multithreading you should:
+			- use nginx or apache to limit connections, rewrite urls, etc so PC doesn't overdo it
+			- recycle workers to remove memory leaks
+			- set up logging and monitering 
+
+	bring frontend and backend under the same umbrella
+
+
+
+
+
+
+What kind of projects do I want to use node.js for?
+	might be fun to try making a simple CAD software...
+	minecraft bots
+	website redesign??? who know
+
+
+
+

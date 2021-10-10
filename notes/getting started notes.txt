@@ -1,0 +1,49 @@
+install node.js		---> https://nodejs.org/en/download/
+	adds runtime	---> sets the runtime env. to run programs
+	npm package		---> is a package installer/manager
+	etc. etc.
+
+--- Node.js			---> https://en.wikipedia.org/wiki/Node.js
+	why node? to run outside browser, server scripts
+	Is event driven: asynchronous I/O
+	not a whole lot on wikipedia besides how it can handle many threads at a time
+---
+
+
+Following through node.js getting-started-guide
+
+Running first app
+	new program: test.js
+		creates a server that displays "Hello World" on port
+	copied straight from the node.js guide.
+
+to setup correctly on windows
+	needed to change file properties of .js files to open with the node.js application instead of
+	the default "Microsoft windows host env."
+
+
+What will my starting project be?
+	simple website to start I guess...
+
+
+Nginx or Apache : Web servers
+	apache default on linux machines
+	apache has many tuts
+	apache uses a locking multisystem thing i think...
+	lower processes per core
+	Nginx is faster and more efficient 
+	Nginx requires higher prowess to utilize
+	Nginx is asynchronous event driven
+	higher processes per core
+
+
+
+
+
+
+
+
+
+
+
+
