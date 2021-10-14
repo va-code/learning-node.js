@@ -1,0 +1,8 @@
+WASM compilation    ---> https://nodejs.org/api/wasi.html
+
+module		---> fs.readFileSync
+			import { readFile } from 'fs/promises';
+			import { WASI } from 'wasi';
+			import { argv, env } from 'process';
+
+		
