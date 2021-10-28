@@ -33,3 +33,21 @@ What kind of projects do I want to use node.js for?
 
 
 Javascript frameworks
+
+	Vue.js
+
+	Angular.js
+
+	react.js
+
+	
+
+
+
+
+
+
+somewhere to start
+	https://github.com/designcourse/threejs-webpack-starter
+	This will let me get started developing on a simple base thus learning how to add features to a website with three.js
+
