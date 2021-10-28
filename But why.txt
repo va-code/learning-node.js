@@ -18,6 +18,8 @@ What can node do?
 			- set up logging and monitering 
 
 	bring frontend and backend under the same umbrella
+	node.js is just a way to running .js scripts without a browser
+
 
 
 
@@ -30,5 +32,4 @@ What kind of projects do I want to use node.js for?
 	website redesign??? who know
 
 
-
-
+Javascript frameworks

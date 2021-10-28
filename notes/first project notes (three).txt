@@ -1,3 +1,0 @@
-Three.js		---> https://threejs.org/
-	three.js is a module for node that allows for 3d object creation and manipulation
-
