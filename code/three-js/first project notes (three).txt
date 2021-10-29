@@ -4,3 +4,31 @@ Three/youtube	---> https://www.youtube.com/watch?v=Q7AOvWpIVHU
 	three.js is a module for node that allows for 3d object creation and manipulation
 
 first there will be a .html file to display 
+
+Using the github page provided by the above link a simple install of the project was completed.
+
+1. copy github files to directory
+2. command prompt cd into directory
+3. npm i					#to install the files to npm
+4. npm audit fix			#fixes installation for windows
+5. npm run dev				#runs the backend and then command prompt gives you the local address of the site.
+
+The plain version just has a red torus simply lit rotating.
+
+Steps of things to add/alter to the site:
+1. Alter lighting to show depth														||not completed||
+2. Orign Axis miniplanes															||not completed||
+		a. small rectangular boxes or surface, centered on Orign					||not completed||
+		b. transparacy on boxes														||not completed||
+		c. origin planes size on zoom(constant size)								||not completed||
+
+3. Sketch Function																	||not completed||
+		a. select plane or face of object											||not completed||
+		b. orient to be centered on object with plane as viewed from above			||not completed||
+		c. make line and shapes														||not completed||
+				i. self interesction errors											||not completed||
+				ii. endpoint connection												||not completed||
+				iii. constraints													||not completed||
+
+4. extrude Function																	||not completed||
+5. save shapes																		||not completed||
