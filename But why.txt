@@ -35,19 +35,29 @@ What kind of projects do I want to use node.js for?
 Javascript frameworks
 
 	Vue.js
-
+		model-view-viewmode architectual pattern
+		seperates ui and logic
 	Angular.js
-
+		good for single page applications
+		more in the box solutions
+		application development used for many
+		capable cli for newer clint side devs
+		high learning vurve
+		breaks often from updates
+		has required typescript stuff
 	react.js
+		facebooks: simplifies building interactive UIs
+		uses jsx(xml in javascript) and will need extended with libraries
+		more stable
 
-	
-
-
-
+	what is Typescript?	
+		strongly typed superset of javascript
+		compiles to just regular javascript
 
 
 
 somewhere to start
 	https://github.com/designcourse/threejs-webpack-starter
+
 	This will let me get started developing on a simple base thus learning how to add features to a website with three.js
 
