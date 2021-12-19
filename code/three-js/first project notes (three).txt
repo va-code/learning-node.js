@@ -15,20 +15,31 @@ Using the github page provided by the above link a simple install of the project
 
 The plain version just has a red torus simply lit rotating.
 
+
+important references:
+CAD FILE ==> glTF 2.0
+	http://www.assimp.org/
+	https://github.com/mikedh/trimesh
+
+
+
+Website design, what it will have;
+	1. overview page
+	2. page for each 3dmodel / projects
+		a. each 3d model shown on top of page small rotating
+		b. assebly 3d model rotating
+		c. short desctription of project: pulled from github .txt
+		d. any pictures shown below pages
+	3. sidebar: colapsable/scrollable on projects
+
+general workflow/automation steps:
+	1. make cad and upload to github website folder
+	2. website weekly check | git pull "httpaddress"
+	3. if folders change 
+		a. ensure page per folder
+		b. all CADfiles converted to glTF
+
+	4. 
+
 Steps of things to add/alter to the site:
-1. Alter lighting to show depth														||not completed||
-2. Orign Axis miniplanes															||not completed||
-		a. small rectangular boxes or surface, centered on Orign					||not completed||
-		b. transparacy on boxes														||not completed||
-		c. origin planes size on zoom(constant size)								||not completed||
-
-3. Sketch Function																	||not completed||
-		a. select plane or face of object											||not completed||
-		b. orient to be centered on object with plane as viewed from above			||not completed||
-		c. make line and shapes														||not completed||
-				i. self interesction errors											||not completed||
-				ii. endpoint connection												||not completed||
-				iii. constraints													||not completed||
-
-4. extrude Function																	||not completed||
-5. save shapes																		||not completed||
+	1.automated python script converting .step files to .glTF(using datakit CrossManager)
