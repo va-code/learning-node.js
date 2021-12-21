@@ -18,8 +18,9 @@ The plain version just has a red torus simply lit rotating.
 
 important references:
 CAD FILE ==> glTF 2.0
-	http://www.assimp.org/
 	https://github.com/mikedh/trimesh
+
+	files will be exported to .glb file which is stored as bytes
 
 
 

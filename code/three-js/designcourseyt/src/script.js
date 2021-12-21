@@ -3,6 +3,14 @@ import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
 import * as dat from 'dat.gui'
 
+// here is the stuff to load model files
+//import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
+
+//continuing with what was already here
+
+
+
+
 // Debug
 const gui = new dat.GUI()
 
@@ -15,8 +23,9 @@ const scene = new THREE.Scene()
 // Objects
 const geometry = new THREE.TorusGeometry( .7, .2, 16, 100 );
 
+
 //texture
-const texture = new THREE.TextureLoader().load("textures/water.jpg")
+//const texture = new THREE.TextureLoader().load("C:/Users/13163/Documents/GitHub/learning-node.js/code/three-js/designcourseyt/src/textures/water.jpg")
 
 
 // Materials
