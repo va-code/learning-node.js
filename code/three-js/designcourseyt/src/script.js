@@ -38,8 +38,16 @@ material1.color = new THREE.Color(0xff75a3)
 // Mesh
 const torus = new THREE.Mesh(geometry,material)
 const torus2 = new THREE.Mesh(geometry,material1)
+
+
+
+
+
+
+
 scene.add(torus)
 scene.add(torus2)
+
 
 // Lights
 
