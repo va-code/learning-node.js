@@ -14,7 +14,7 @@ document.querySelector('#app').innerHTML = `
 // threejs stuff after this point
 
 var renderer = new THREE.WebGLRenderer( { canvas: my_canvas } );
-
+renderer.setPixelRatio( window.devicePixelRatio );
 const camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 1, 500 );
 camera.position.set(0 , 0, 200);
 camera.lookAt( 0, 0, 0 );
