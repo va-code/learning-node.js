@@ -20,7 +20,7 @@ camera.position.set(0 , 0, 200);
 camera.lookAt( 0, 0, 0 );
 
 const scene = new THREE.Scene();
-scene.background = new THREE.Color(0x0000ff);
+scene.background = new THREE.Color(0x202124);
 
 var light = new THREE.PointLight(0xffffff,0.5);
 scene.add(light);
