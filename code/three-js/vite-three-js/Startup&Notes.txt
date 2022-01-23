@@ -1,0 +1,20 @@
+Using NPM:
+
+:terminal:
+```
+$ npm isntall vite@latest
+
+$ npm init vite@latest
+	->name_project
+
+	->vanilla
+		->vanilla
+$ cd name_project
+/name_project/$ npm install
+/name_project/$ npm run dev
+```
+
+from there replace relavant files with those from '/src changes/'
+
+Results:
+	Website should have a box model on the left and a dragon model on the right held within a canvas in the HTML. Both objects will be rotating around 'magically'. Other small things here and there.
